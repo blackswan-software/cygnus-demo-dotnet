@@ -2,13 +2,13 @@
 
 ![cygnus](https://blackswan-software.ai/badge/csharp/Stripe.net)
 
-Verify the supply chain of a .NET enterprise app — 10 NuGet packages, 55,000+ verified function tokens.
+Verify the supply chain of [eShop](https://github.com/dotnet/eShop) — Microsoft's reference .NET app, 10 NuGet packages, 55,000+ verified function tokens.
 
-## Clone and verify
+## Try it on eShop
 
 ```bash
-git clone git@github.com:blackswan-software/cygnus-demo-dotnet.git
-cd cygnus-demo-dotnet
+git clone https://github.com/dotnet/eShop.git
+cd eShop
 curl -fsSL https://install.blackswan-software.ai | sh
 cygnus -e csharp verify
 ```
@@ -77,3 +77,4 @@ Newtonsoft.Json==13.0.3              FULLY_VERIFIED     211/211 FV     signed   
 ## Links
 
 - [Cygnus](https://blackswan-software.ai) — The Certificate Authority for Software Libraries
+- [eShop](https://github.com/dotnet/eShop) — Fork it and try Cygnus
